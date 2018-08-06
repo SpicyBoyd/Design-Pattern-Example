@@ -12,7 +12,7 @@ public class ConcreteObserverA implements Observer{
 	public void update() {
 		// TODO Auto-generated method stub
 		this.observerState = concreteSubject.isState();
-		System.out.println(getClass().getSimpleName() + " ¦¬¨ì³qª¾");
+		System.out.println(getClass().getSimpleName() + " æ”¶åˆ°é€šçŸ¥");
         System.out.println(observerState);
         System.out.println();
 	}

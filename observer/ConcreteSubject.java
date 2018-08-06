@@ -27,9 +27,9 @@ public class ConcreteSubject implements Subject {
 	public void notifyObservers() {
 		// TODO Auto-generated method stub
 		System.out.println("-------------------------------------");
-		System.out.println("| " + getClass().getSimpleName() + " ³qª¾µ¹©Ò¦³Æ[¹îªÌ§ó·s |");
+		System.out.println("| " + getClass().getSimpleName() + " é€šçŸ¥çµ¦æ‰€æœ‰è§€å¯Ÿè€…æ›´æ–° |");
 		System.out.println("-------------------------------------");
-		System.out.println("                 ¡¿");
+		System.out.println("                 â–¼");
 		System.out.println();
 		for (Observer observer : observers) {
 			observer.update();
@@ -42,7 +42,7 @@ public class ConcreteSubject implements Subject {
 
 	public void setState(boolean state) {
 		this.state = state;
-		System.out.println(getClass().getSimpleName() + " ÅÜ§óª¬ºA");
+		System.out.println(getClass().getSimpleName() + " è®Šæ›´ç‹€æ…‹");
 		System.out.println(state);
 		System.out.println();
 	}
